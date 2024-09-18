@@ -1,0 +1,15 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    "baseUrl": "./",
+    "paths": {},
+    "jsx": "react-native",
+    "lib": ["es6", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    /* Completeness */
+    "skipLibCheck": true,
+    "strict": true
+  }
+}
